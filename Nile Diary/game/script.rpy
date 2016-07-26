@@ -87,17 +87,18 @@ label story:
      sg "more or less"
     
 label notmuchgame:
-     scene black
+     scene white
      with dissolve
 
      sg "well, hang on, ok?"
      sg "this is just me still working through how this platform works."
+     show shawn full at center with dissolve 
      sg "the idea is that you'll get the story of the Nile Diary"
      sg "but also get 4th-wall breaks that explain what I'm trying to achieve"
      sg "in my research on the diary,"
      sg "the choices I made, the tech I've used, pointers to further info, etc"
-     show shawn full at center with dissolve 
-     image splash
-     sg "after all, a diary speaks to us, and triggers associations, right?"
+     
+     show splash
+     sg "stay tuned..."
 
      return
