@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 95, in script
+    show shawn full at centre with dissolve
+  File "game/script.rpy", line 95, in <module>
+    show shawn full at centre with dissolve
+NameError: name 'centre' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 95, in script
+    show shawn full at centre with dissolve
+  File "/Users/shawngraham/renpy-6.99.10-sdk/renpy/ast.py", line 1065, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Users/shawngraham/renpy-6.99.10-sdk/renpy/ast.py", line 1026, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "/Users/shawngraham/renpy-6.99.10-sdk/renpy/python.py", line 1606, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/shawngraham/renpy-6.99.10-sdk/renpy/python.py", line 1601, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 95, in <module>
+    show shawn full at centre with dissolve
+NameError: name 'centre' is not defined
+
+Darwin-14.5.0-x86_64-i386-64bit
+Ren'Py 6.99.10.1227
+Nile Diary 0.0
