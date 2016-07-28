@@ -33,8 +33,8 @@ init -1 python hide:
     ## The theme function takes a number of parameters that can
     ## customize the color scheme.
 
-    theme.austen(
-        ## Theme: Austen
+    theme.diamond(
+        ## Theme: Diamond
         ## Color scheme: Victorian Gingerbread
 
         ## The color of an idle widget face.
@@ -65,7 +65,7 @@ init -1 python hide:
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#695640",
+        mm_root = "diary-cover.png",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
@@ -74,7 +74,7 @@ init -1 python hide:
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
-        rounded_window = False,
+        rounded_window = True,
 
         ## And we're done with the theme. The theme will customize
         ## various styles, so if we want to change them, we should

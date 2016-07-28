@@ -2,8 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 100: expected '=' not found.
-    image splash
-                ^
+File "game/script.rpy", line 49: indentation mismatch.
 
 Ren'Py Version: Ren'Py 6.99.10.1227

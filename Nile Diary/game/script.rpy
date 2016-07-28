@@ -5,6 +5,10 @@ init:
     image bg steamer = "bg_steamer.jpg"
     image bg whale ="bg_whale.jpg"
     image bg sinking ="bg_sinking.jpg"
+    
+    image transkribus blur="transkribus-blur.png"
+    image clipping ="clipping.png"
+    image diaryone ="diary-pg-1.png"
 
     image shawn full ="shawn.png"
     image shawn eyesright = "shawn_eyes_right.png"
@@ -37,6 +41,20 @@ label splashscreen:
 # The game starts here.
 label start:
 
+    scene black
+    with dissolve
+
+    "The diary had been scanned and uploaded to the university library website."
+
+    show clipping with fade
+    "They'd even scanned a clipping they'd found inside."
+    "Didn't look like anyone had bothered much with it."
+    
+    show diaryone
+    "I opened it up, and began reading."
+
+    stop music
+
     play music "23722__milo__ship2-bergen.ogg"
 
     scene bg steamer at Pan((100, 100), (1000, 1000), 20.0)
@@ -47,7 +65,7 @@ label start:
     stop music
 
     scene bg whale with fade 
-    tl "Capt. read serviceon Sunday morning - in afternoon dead body of whale, white and shiny quite near us upon the water and hundreds of little birds upon it"
+    tl "Capt. read service on Sunday morning - in afternoon dead body of whale, white and shiny quite near us upon the water and hundreds of little birds upon it"
     
     scene bg sinking with fade
     tl "The second sunday morning suddenly a great wave rose ten feet above the deck "    
@@ -87,18 +105,22 @@ label story:
      sg "more or less"
     
 label notmuchgame:
-     scene white
+     scene black
      with dissolve
 
      sg "well, hang on, ok?"
      sg "this is just me still working through how this platform works."
-     show shawn full at center with dissolve 
+     show shawn full at right with dissolve 
      sg "the idea is that you'll get the story of the Nile Diary"
-     sg "but also get 4th-wall breaks that explain what I'm trying to achieve"
-     sg "in my research on the diary,"
-     sg "the choices I made, the tech I've used, pointers to further info, etc"
+     sg "but also get 4th-wall breaks that explain what I'm trying to achieve."
      
-     show splash
-     sg "stay tuned..."
+     scene transkribus blur
+     with dissolve
+     
+     sg "I will show you how my research on the diary is done,"
+     sg "the choices I made, the tech I've used, and pointers to further info, etc"
+     
+     scene splash
+     sg "so stay tuned..."
 
      return

@@ -1,3 +1,4 @@
+.android.json matches .android.json ([u'android']).
 .DS_Store matches **/.** (None).
 errors.txt matches errors.txt (None).
 game/ matches ** ([u'all']).
@@ -14,12 +15,17 @@ game/images/bg_sinking.jpg matches ** ([u'all']).
 game/images/bg_steamer.jpg matches ** ([u'all']).
 game/images/bg_whale-cropped.jpg matches ** ([u'all']).
 game/images/bg_whale.jpg matches ** ([u'all']).
-game/images/bigmouth.jpeg matches ** ([u'all']).
+game/images/clipping.png matches ** ([u'all']).
+game/images/diary-cover.png matches ** ([u'all']).
+game/images/diary-pg-1.png matches ** ([u'all']).
 game/images/Nile Temple.jpg matches ** ([u'all']).
 game/images/shawn.png matches ** ([u'all']).
 game/images/shawn_eyes_front_mouth_open.png matches ** ([u'all']).
 game/images/shawn_eyes_right.png matches ** ([u'all']).
 game/images/shawn_eyes_right_mouth_open.png matches ** ([u'all']).
+game/images/shawn_laugh.png matches ** ([u'all']).
+game/images/shawn_pleased.png matches ** ([u'all']).
+game/images/transkribus-blur.png matches ** ([u'all']).
 game/options.rpy matches ** ([u'all']).
 game/options.rpy.bak matches **.bak (None).
 game/options.rpyc matches ** ([u'all']).
@@ -740,6 +746,8 @@ log.txt doesn't match anything.
 log.txt matches None (None).
 module/ doesn't match anything.
 module/ matches None (None).
+rapt/ doesn't match anything.
+rapt/ matches None (None).
 renpy/ matches renpy/ ([u'all']).
 renpy/__init__.py matches renpy/** ([u'renpy']).
 renpy/__init__.pyo matches renpy/** ([u'renpy']).
@@ -1335,6 +1343,8 @@ templates/ doesn't match anything.
 templates/ matches None (None).
 the_question/ doesn't match anything.
 the_question/ matches None (None).
+traceback.txt doesn't match anything.
+traceback.txt matches None (None).
 tutorial/ doesn't match anything.
 tutorial/ matches None (None).
 update/ doesn't match anything.
