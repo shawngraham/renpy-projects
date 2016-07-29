@@ -1,0 +1,69 @@
+:: init
+define e = Character("Eileen")
+
+
+:: init python
+pass
+
+
+:: Start
+e "This is a test story for twine2rpy."
+e "The purpose of this script is to allow developers to use Twine for storyboarding and basic prototyping, taking advantage of the visual node links between internalLinks and choice macros, and then easily transfer to a .rpy file."
+e "To get the source code for your .tws file, go to File > Export Source Code... to create a source .txt file."
+e "Here's an internalLink."
+[[Test link]]
+
+
+:: Test link
+e "Here's a choice menu. You will need to indent your menus with tabs as usual."
+menu:
+	"Option 1":
+		<<choice "Option 1">>
+	"Option 2":
+		<<choice "Option 2">>
+	"Option 3":
+		<<choice "Option 3">>
+
+
+:: Option 2
+<<set $option = 2>>
+e "So you picked option 2!  That's fine."
+<<display "Last Passage">>
+return
+
+
+:: Option 3
+<<set $option = 3>>
+e "So you picked option 3.  All right."	
+<<display "Last Passage">>
+return
+
+
+:: Option 1
+<<set $option = 1>>
+e "So you picked option 1.  Okay then."	
+<<display "Last Passage">>
+return
+
+
+:: Last Passage
+e "Here's an example of an if block. Place if, else, and endif statements on separate lines, just as you would in Python."
+e "Twine does not have an elif statement, but you can use nested if statements, which will be properly converted into an if/elif/else block in the .rpy."
+
+<<if $option eq 1>>
+e "You picked Option 1, didn't you?"
+<<else>><<if $option eq 2>>
+e "You picked option 2, didn't you?"
+<<else>>
+e "I guess you picked 3!"
+<<endif>>
+<<endif>>
+
+e "I can also interpolate your choice: option <<print $option>>."
+
+e "However, multiple assignment and multiple conditions separated by ';' or ternary operators is not converted."
+
+e "And that's the end of the demo."
+return
+
+

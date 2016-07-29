@@ -2,6 +2,16 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 49: indentation mismatch.
+File "game/script.rpy", line 143: expected statement.
+    sg: "This is my open notebook."
+      ^
+
+File "game/script.rpy", line 145: expected statement.
+    sg: "People think I'm ...odd for having one."
+      ^
+
+File "game/script.rpy", line 146: expected statement.
+    sg: "But you can see where I'm at if you go there."
+      ^
 
 Ren'Py Version: Ren'Py 6.99.10.1227

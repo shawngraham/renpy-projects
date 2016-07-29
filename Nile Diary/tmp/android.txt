@@ -38,18 +38,18 @@ Buildfile: /Users/shawngraham/renpy-6.99.10-sdk/rapt/build.xml
  [checkenv] Installed at /Users/shawngraham/renpy-6.99.10-sdk/rapt/android-sdk-r24.4.1
 
 -setup:
-     [echo] Project Name: TheNileDiary-0.1.2
+     [echo] Project Name: TheNileDiary-0.1.3
   [gettype] Project Type: Application
 
 -build-setup:
 [getbuildtools] Using latest Build Tools: 23.0.1
-     [echo] Resolving Build Target for TheNileDiary-0.1.2...
+     [echo] Resolving Build Target for TheNileDiary-0.1.3...
 [gettarget] Project Target:   Android 5.1.1
 [gettarget] API level:        22
      [echo] ----------
      [echo] Creating output directories if needed...
      [echo] ----------
-     [echo] Resolving Dependencies for TheNileDiary-0.1.2...
+     [echo] Resolving Dependencies for TheNileDiary-0.1.3...
 [dependency] Library dependencies:
 [dependency] 
 [dependency] ------------------
@@ -289,7 +289,7 @@ release:
      [aapt] Creating full resource package...
 
 -package:
-[apkbuilder] Creating TheNileDiary-0.1.2-release-unsigned.apk for release...
+[apkbuilder] Creating TheNileDiary-0.1.3-release-unsigned.apk for release...
 
 -post-package:
 
@@ -300,7 +300,7 @@ release:
 -release-sign:
      [echo] Signing final apk...
  [zipalign] Running zip align on final apk...
-     [echo] Release Package: /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/TheNileDiary-0.1.2-release.apk
+     [echo] Release Package: /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/TheNileDiary-0.1.3-release.apk
 [propertyfile] Updating property file: /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/build.prop
 [propertyfile] Updating property file: /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/build.prop
 [propertyfile] Updating property file: /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/build.prop
@@ -310,336 +310,8 @@ release:
 
 release:
 
-install:
-     [echo] Installing /Users/shawngraham/renpy-6.99.10-sdk/rapt/bin/TheNileDiary-0.1.2-release.apk onto default emulator or device...
-     [exec] [  0%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  0%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  0%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  1%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  1%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  1%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  2%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  2%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  2%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  3%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  3%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  3%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  4%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  4%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  4%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  5%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  5%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  5%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  6%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  6%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  6%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  7%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  7%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  7%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  8%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  8%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  8%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  8%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  9%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  9%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [  9%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 10%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 10%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 10%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 11%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 11%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 11%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 12%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 12%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 12%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 13%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 13%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 13%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 14%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 14%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 14%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 15%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 15%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 15%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 16%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 16%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 16%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 16%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 17%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 17%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 17%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 18%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 18%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 18%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 19%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 19%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 19%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 20%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 20%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 20%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 21%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 21%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 21%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 22%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 22%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 22%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 23%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 23%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 23%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 24%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 24%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 24%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 25%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 25%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 25%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 25%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 26%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 26%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 26%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 27%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 27%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 27%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 28%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 28%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 28%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 29%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 29%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 29%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 30%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 30%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 30%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 31%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 31%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 31%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 32%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 32%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 32%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 33%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 33%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 33%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 33%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 34%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 34%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 34%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 35%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 35%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 35%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 36%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 36%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 36%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 37%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 37%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 37%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 38%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 38%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 38%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 39%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 39%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 39%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 40%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 40%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 40%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 41%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 41%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 41%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 41%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 42%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 42%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 42%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 43%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 43%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 43%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 44%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 44%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 44%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 45%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 45%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 45%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 46%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 46%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 46%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 47%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 47%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 47%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 48%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 48%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 48%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 49%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 49%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 49%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 50%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 50%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 50%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 50%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 51%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 51%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 51%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 52%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 52%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 52%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 53%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 53%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 53%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 54%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 54%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 54%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 55%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 55%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 55%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 56%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 56%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 56%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 57%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 57%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 57%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 58%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 58%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 58%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 58%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 59%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 59%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 59%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 60%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 60%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 60%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 61%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 61%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 61%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 62%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 62%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 62%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 63%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 63%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 63%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 64%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 64%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 64%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 65%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 65%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 65%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 66%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 66%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 66%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 67%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 67%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 67%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 67%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 68%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 68%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 68%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 69%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 69%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 69%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 70%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 70%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 70%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 71%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 71%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 71%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 72%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 72%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 72%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 73%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 73%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 73%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 74%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 74%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 74%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 75%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 75%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 75%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 75%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 76%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 76%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 76%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 77%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 77%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 77%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 78%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 78%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 78%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 79%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 79%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 79%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 80%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 80%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 80%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 81%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 81%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 81%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 82%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 82%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 82%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 83%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 83%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 83%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 83%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 84%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 84%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 84%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 85%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 85%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 85%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 86%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 86%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 86%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 87%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 87%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 87%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 88%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 88%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 88%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 89%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 89%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 89%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 90%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 90%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 90%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 91%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 91%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 91%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 92%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 92%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 92%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 92%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 93%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 93%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 93%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 94%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 94%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 94%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 95%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 95%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 95%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 96%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 96%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 96%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 97%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 97%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 97%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 98%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 98%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 98%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 99%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 99%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [ 99%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] [100%] /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] 	pkg: /data/local/tmp/TheNileDiary-0.1.2-release.apk
-     [exec] Success
-
 BUILD SUCCESSFUL
-Total time: 31 seconds
-
-
-
-
-Launching app.
-Starting: Intent { act=android.intent.action.MAIN cmp=com.graeworks.nile/org.renpy.android.PythonSDLActivity }
-Status: ok
-Activity: com.graeworks.nile/org.renpy.android.PythonSDLActivity
-ThisTime: 1652
-TotalTime: 6758
-Complete
+Total time: 10 seconds
 
 
 

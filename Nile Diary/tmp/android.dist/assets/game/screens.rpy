@@ -191,10 +191,10 @@ screen main_menu():
 
         has vbox
 
-        textbutton _("Open the Diary") action Start()
+        textbutton _("Study the Diary") action Start()
         textbutton _("Bookmarks") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Help") action Help()
+        textbutton _("Visit the \n Open Research Notebook") action OpenURL("http://smgprojects.github.io/nile-diary/")
         textbutton _("Quit") action Quit(confirm=False)
 
 init -2:

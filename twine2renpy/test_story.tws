@@ -1,0 +1,339 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cPython27\u005cscripts\u005ctest_story.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cPython27\u005cscripts\u005ctset_story.tws
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I01
+sS'pos'
+p13
+(lp14
+I290
+aI10
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+Ve "This is a test story for twine2rpy."\u000ae "The purpose of this script is to allow developers to use Twine for storyboarding and basic prototyping, taking advantage of the visual node links between internalLinks and choice macros, and then easily transfer to a .rpy file."\u000ae "To get the source code for your .tws file, go to File > Export Source Code... to create a source .txt file."\u000ae "Here's an internalLink."\u000a[[Test link]]
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I2
+I23
+I11
+I10
+I47
+I5
+I54
+I0
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+I430
+aI10
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+Ve "Here's a choice menu. You will need to indent your menus with tabs as usual."\u000amenu:\u000a	"Option 1":\u000a		<<choice "Option 1">>\u000a	"Option 2":\u000a		<<choice "Option 2">>\u000a	"Option 3":\u000a		<<choice "Option 3">>
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I2
+I23
+I11
+I13
+I28
+I5
+I54
+I0
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+VTest link
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+I570
+aI150
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+V<<set $option = 1>>\u000ae "So you picked option 1.  Okay then."	\u000a<<display "Last Passage">>\u000areturn
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I2
+I23
+I11
+I14
+I11
+I5
+I54
+I0
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+VOption 1
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+I290
+aI150
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+V<<set $option = 2>>\u000ae "So you picked option 2!  That's fine."\u000a<<display "Last Passage">>\u000areturn
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I2
+I23
+I11
+I14
+I45
+I5
+I54
+I0
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+VOption 2
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+I430
+aI290
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+Ve "Here's an example of an if block. Place if, else, and endif statements on separate lines, just as you would in Python."\u000ae "Twine does not have an elif statement, but you can use nested if statements, which will be properly converted into an if/elif/else block in the .rpy."\u000a\u000a<<if $option eq 1>>\u000ae "You picked Option 1, didn't you?"\u000a<<else>><<if $option eq 2>>\u000ae "You picked option 2, didn't you?"\u000a<<else>>\u000ae "I guess you picked 3!"\u000a<<endif>>\u000a<<endif>>\u000a\u000ae "I can also interpolate your choice: option <<print $option>>."\u000a\u000ae "However, multiple assignment and multiple conditions separated by ';' or ternary operators is not converted."\u000a\u000ae "And that's the end of the demo."\u000areturn
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I2
+I23
+I11
+I15
+I7
+I5
+I54
+I0
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+VLast Passage
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+I10
+aI10
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+S'text'
+p79
+Vdefine e = Character("Eileen")
+p80
+sS'tags'
+p81
+(lp82
+sS'created'
+p83
+g23
+((I2013
+I2
+I24
+I8
+I16
+I8
+I6
+I55
+I0
+tp84
+(dp85
+tp86
+Rp87
+sS'modified'
+p88
+g87
+sS'title'
+p89
+Vinit
+p90
+sbsa(dp91
+g12
+I00
+sg13
+(lp92
+I150
+aI10
+asg15
+(itiddlywiki
+Tiddler
+p93
+(dp94
+g79
+Vpass
+p95
+sg81
+(lp96
+sg83
+g23
+((I2013
+I2
+I24
+I8
+I31
+I14
+I6
+I55
+I0
+tp97
+(dp98
+tp99
+Rp100
+sg88
+g100
+sg89
+Vinit python
+p101
+sbsa(dp102
+g12
+I00
+sg13
+(lp103
+I430
+aI150
+asg15
+(itiddlywiki
+Tiddler
+p104
+(dp105
+S'text'
+p106
+V<<set $option = 3>>\u000ae "So you picked option 3.  All right."	\u000a<<display "Last Passage">>\u000areturn
+p107
+sS'tags'
+p108
+(lp109
+sS'created'
+p110
+g23
+((I2013
+I2
+I24
+I14
+I43
+I26
+I6
+I55
+I0
+tp111
+(dp112
+tp113
+Rp114
+sS'modified'
+p115
+g114
+sS'title'
+p116
+VOption 3
+p117
+sbsasS'scale'
+p118
+I1
+ss.

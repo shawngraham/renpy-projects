@@ -19,12 +19,14 @@ game/images/clipping.png matches ** ([u'all']).
 game/images/diary-cover.png matches ** ([u'all']).
 game/images/diary-pg-1.png matches ** ([u'all']).
 game/images/Nile Temple.jpg matches ** ([u'all']).
+game/images/notebook.png matches ** ([u'all']).
 game/images/shawn.png matches ** ([u'all']).
 game/images/shawn_eyes_front_mouth_open.png matches ** ([u'all']).
 game/images/shawn_eyes_right.png matches ** ([u'all']).
 game/images/shawn_eyes_right_mouth_open.png matches ** ([u'all']).
 game/images/shawn_laugh.png matches ** ([u'all']).
 game/images/shawn_pleased.png matches ** ([u'all']).
+game/images/sunset.jpg matches ** ([u'all']).
 game/images/transkribus-blur.png matches ** ([u'all']).
 game/options.rpy matches ** ([u'all']).
 game/options.rpy.bak matches **.bak (None).
@@ -35,6 +37,8 @@ game/screens.rpy.bak matches **.bak (None).
 game/screens.rpyc matches ** ([u'all']).
 game/script.rpy matches ** ([u'all']).
 game/script.rpyc matches ** ([u'all']).
+game/seagulls.ogg matches ** ([u'all']).
+game/seagulls_and_preacher.ogg matches ** ([u'all']).
 log.txt matches log.txt (None).
 README.html matches ** ([u'all']).
 tmp/ matches tmp/ (None).
